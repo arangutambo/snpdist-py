@@ -1,0 +1,8 @@
+name: snpdist
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.12
+  - numpy
+  - pytest
+  - ruff
+  - snp-dists   # the C reference implementation, used only as a correctness oracle in tests
